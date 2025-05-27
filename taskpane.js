@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"; // ここを自分のAPIキーに書き換えてください
+const GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"; // AIzaSyBfsxQbBMpbAcGhgGyxVpwnss-6qVLrZM0
 
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('generate').onclick = async function() {
