@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="MessageRead">
+  <Id>c1e1b1b1-1234-5678-9abc-def012345678</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>AI返信生成</ProviderName>
+  <DefaultLocale>ja-JP</DefaultLocale>
+  <DisplayName DefaultValue="AI返信生成（Gemini）"/>
+  <Description DefaultValue="方針からAIで返信文を自動生成"/>
+  <IconUrl DefaultValue="https://static.thenounproject.com/png/104062-200.png"/>
+  <Hosts>
+    <Host Name="Mailbox"/>
+  </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="Mailbox"/>
+    </Sets>
+  </Requirements>
+  <FormSettings>
+    <Form xsi:type="ItemRead">
+      <DesktopSettings>
+        <!-- GitHub Pages公開後に下記URLを修正してください -->
+        <SourceLocation DefaultValue="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/taskpane.html"/>
+        <RequestedHeight>350</RequestedHeight>
+      </DesktopSettings>
+    </Form>
+    <Form xsi:type="ItemEdit">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/taskpane.html"/>
+        <RequestedHeight>350</RequestedHeight>
+      </DesktopSettings>
+    </Form>
+  </FormSettings>
+  <Permissions>ReadWriteItem</Permissions>
+</OfficeApp> 
